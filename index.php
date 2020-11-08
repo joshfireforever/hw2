@@ -33,7 +33,6 @@ comparing against a given spending limit. -->
         <button id="calcButton" class="btn btn-outline-info">Calculate</button>
         <br>
         
-
     
         <footer>
             <hr>

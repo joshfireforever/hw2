@@ -27,8 +27,8 @@ $(document).ready(function() {
         parseSpending();
         
         if (usingDecimal)
-            sum = sum.toFixed(2);
-            
+            sum = Math.round(sum);
+        
         outputResults();
     }
     
@@ -85,16 +85,12 @@ $(document).ready(function() {
                                 tempChar+=inputArr[i][k+1];
                             }
                             else {
-                                tempChar+='00';
                                 sum += Number(tempChar);
                                 break line_loop;
                             }
                             
                             if ((inputArr[i][k+2] >= '0') && (inputArr[i][k+2] <= '9')) {
                                 tempChar+=inputArr[i][k+2];
-                            }
-                            else {
-                                tempChar+='0';
                             }
                             
                             sum += Number(tempChar);
