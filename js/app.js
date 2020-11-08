@@ -60,17 +60,14 @@ $(document).ready(function() {
         let tempChar = '';
         //loop through each line
         for (let i=0; i<inputArr.length; i++) {
-            
-            console.log('line: ' + i + ": " + inputArr[i]);
+
             //loop through each character
             line_loop:
             for (let j=0; j<inputArr[i].length; j++) {
-                
-                console.log('character: ' + j + ": " + inputArr[i][j]);
+
                 //if number then add first number add to temp char var
                 if ((inputArr[i][j] >= '0') && (inputArr[i][j] <= '9')) {
-                    
-                    console.log('bingo');
+
                     tempChar = inputArr[i][j];
                     
                     //loop through remaining char, checking for number or period
