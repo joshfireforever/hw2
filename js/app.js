@@ -137,7 +137,7 @@ $(document).ready(function() {
         }
         else if (sum > inputLimit*.4) {
             $("#resultsImg").html("<img src ='img/neutral.png' alt='neutral'>");
-            $("#spendingFdbk").attr("class", "bg-secondary text-white");
+            $("#spendingFdbk").attr("class", "bg-info text-white");
             $("#spendingFdbk").html("You have spent $" + sum + " and are under the limit.");
         }
         else {
