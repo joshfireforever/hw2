@@ -130,7 +130,7 @@ $(document).ready(function() {
             $("#spendingFdbk").attr("class", "bg-warning text-white");
             $("#spendingFdbk").html("You have spent $" + sum + " and are at the limit.");
         }
-        else if (sum > inputLimit*.75) {
+        else if (sum > inputLimit*.85) {
             $("#resultsImg").html("<img src ='img/worried.png' alt='worried'>");
             $("#spendingFdbk").attr("class", "bg-warning text-white");
             $("#spendingFdbk").html("You have spent $" + sum + " and are close to the limit.");
