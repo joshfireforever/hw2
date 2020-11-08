@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!---Parses a given list of spent purchases for numeric values and adds them up, 
+comparing against a given spending limit. -->
 <html>
     <head>
         <title> Spending Calculator </title>
