@@ -1,0 +1,62 @@
+body {
+  background-color: #343835;
+  color: #bababa;
+
+}
+
+h1 {
+  background-color: #006c70;
+  color: #3b3b3b;
+  font-size: 3em;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 300;
+}
+
+form {
+  align-items: center;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 100;
+}
+
+form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 7px;
+  background-color: white;
+  border: 3px solid #006c70;
+}
+
+form h4 {
+  font-size: 1.1em;
+}
+
+form textarea {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 7px;
+  background-color: white;
+  border: 3px solid #006c70;
+}
+
+form textarea::placeholder {
+  color: #c6cacf;
+  font-size: .9em;
+}
+
+form input::placeholder {
+  color: #c6cacf;
+  font-size: .9em;
+}
+
+form span {
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: .65em;
+}
+
+resultsImg {
+    width: 150px;
+    height: 150px;
+}
